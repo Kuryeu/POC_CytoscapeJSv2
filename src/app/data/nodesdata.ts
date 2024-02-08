@@ -1,0 +1,104 @@
+export const DATA = [ 
+ {
+    id:"a"
+ },
+ {
+    id:"b"
+ },
+ {
+    id:"c"
+ },
+ {
+    id:"d"
+ },
+ {
+    id:"e"
+ },
+ {
+    id:"f"
+ },
+ {
+    id:"g"
+ },
+ {
+   id:"h"
+},
+{
+   id:"i"
+},
+{
+   id:"j"
+},
+{
+   id:"k"
+},
+{
+   id:"l"
+},
+
+ {
+    id:"ab",
+    source:"a",
+    target:"b"
+ },
+ {
+    id:"bc",
+    source:"b",
+    target:"c"
+ },
+ {
+    id:"cd",
+    source:"c",
+    target:"d"
+ },
+ {
+    id:"ce",
+    source:"c",
+    target:"e"
+ },
+ {
+    id:"df",
+    source:"d",
+    target:"f"
+ },
+ {
+    id:"ef",
+    source:"e",
+    target:"f"
+ },
+ {
+    id:"fg",
+    source:"f",
+    target:"g"
+ },
+ {
+    id:"ga",
+    source:"g",
+    target:"a"
+ },
+ {
+   id:"ig",
+   source:"i",
+   target:"g"
+},
+{
+   id:"lg",
+   source:"l",
+   target:"g"
+},
+{
+   id:"jk",
+   source:"j",
+   target:"k"
+},
+{
+   id:"kg",
+   source:"k",
+   target:"g"
+},
+{
+   id:"hg",
+   source:"h",
+   target:"g"
+},
+]

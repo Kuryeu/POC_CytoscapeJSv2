@@ -1,0 +1,30 @@
+
+<div>
+<select name="Switch Layout" placeholder="Select layout" searchable="Search here.." (ngModelChange)="layoutOptionChange($event)" [(ngModel)]="layoutOption" > 
+       
+    <optgroup label="RSMD">
+      <option id="grid1" value='gridcol=1'> Grid Layout (cols=1)</option>
+    </optgroup>
+    
+    <optgroup label="RB"> 
+        <option id="fcose" value="fcose"> fcose Layout</option>
+    </optgroup>
+
+    <optgroup label="WorldFIP, RQX, RU">
+        <option id="cola" value="cola"> Cola Layout</option>
+    </optgroup>
+    
+    <optgroup label="Back-up layouts">
+        <option id="cise" value="cise"> cise Layout</option>
+        <option id="grid" value="grid"> Grid Layout</option>
+        <option id="grid2" value='gridrow=1'> Grid Layout (rows=1)</option>
+    </optgroup>
+</select> 
+
+
+<input id="searchbox" (input)="onInput($event)" placeholder="Search node ...">
+ 
+</div>
+<div class="cy-container" #cyContainer>
+
+
